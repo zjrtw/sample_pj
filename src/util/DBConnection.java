@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 import java.sql.*;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul";
-    private static final String USER = "root";
-    private static final String PASSWORD = "1234";
+    private static final String URL = "jdbc:mysql://localhost:3306/gitalkdb?serverTimezone=Asia/Seoul";
+    private static final String USER = "admin";
+    private static final String PASSWORD = "admin";
 
     public static Connection makeConnection() {
         Connection con = null;
